@@ -4,6 +4,7 @@ Name:		faq
 Version:	6.0
 Release:	2
 Source0:	ftp://sunsite.unc.edu/pub/Linux/docs/%{name}s-%{version}.tar.gz
+# Source0-md5:	9d036492928ab1d65192738beff5812c
 License:	distributable
 Group:		Documentation
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
