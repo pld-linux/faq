@@ -2,17 +2,18 @@ Summary:	Frequently Asked Questions (FAQ) about Linux.
 Name:		faq
 Version:	6.0
 Release:	2
-Source:		ftp://sunsite.unc.edu/pub/Linux/docs/faqs-%{version}.tar.gz
+Source0:	ftp://sunsite.unc.edu/pub/Linux/docs/%{name}s-%{version}.tar.gz
 Copyright:	distributable
 Group:		Documentation
+Group(pl):	Dokumentacja
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-BuildArchitectures: noarch
+BuildArchitectures:	noarch
 
 %description
 The faq package includes the text of the Frequently Asked Questions
 (FAQ) about Linux from the SunSITE website
-(http://sunsite.unc.edu/pub/Linux/docs/faqs/linux-faq/Linux-FAQ).
-The Linux FAQ is a great source of information about Linux.
+(http://sunsite.unc.edu/pub/Linux/docs/faqs/linux-faq/Linux-FAQ). The
+Linux FAQ is a great source of information about Linux.
 
 Install faq if you'd like to read the Linux FAQ off your own machine.
 
@@ -22,7 +23,8 @@ dotycz±cych Linuksa, pochodz±cych z witryny SunSITE:
 http://sunsite.unc.edu/pub/Linux/docs/faqs/linux-faq/Linux-FAQ/.
 Linuksowe FAQ jest wspania³ym ¼ród³em wiedzy o Linuksie.
 
-Nale¿y zainstalowaæ faq je¶li chce siê przeczytaæ FAQ dotycz±ce systemu Linux.
+Nale¿y zainstalowaæ faq je¶li chce siê przeczytaæ FAQ dotycz±ce
+systemu Linux.
 
 %prep
 %setup -q -n faqs
