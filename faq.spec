@@ -16,6 +16,14 @@ The Linux FAQ is a great source of information about Linux.
 
 Install faq if you'd like to read the Linux FAQ off your own machine.
 
+%description -l pl
+Pakiet faq zawiera tekst Najczê¶ciej Zadawanych Pytañ (i odpowiedzi)
+dotycz±cych Linuksa, pochodz±cych z witryny SunSITE:
+http://sunsite.unc.edu/pub/Linux/docs/faqs/linux-faq/Linux-FAQ/.
+Linuksowe FAQ jest wspania³ym ¼ród³em wiedzy o Linuksie.
+
+Nale¿y zainstalowaæ faq je¶li chce siê przeczytaæ FAQ dotycz±ce systemu Linux.
+
 %prep
 %setup -q -n faqs
 
