@@ -5,7 +5,7 @@ Release:	2
 Source:		ftp://sunsite.unc.edu/pub/Linux/docs/faqs-%{version}.tar.gz
 Copyright:	distributable
 Group:		Documentation
-Buildroot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArchitectures: noarch
 
 %description
