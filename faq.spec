@@ -1,13 +1,16 @@
-Summary:	Frequently Asked Questions (FAQ) about Linux.
+Summary:	Frequently Asked Questions (FAQ) about Linux
+Summary(pl):	FAQ - czêsto zadawane pytania na temat Linuksa
 Name:		faq
 Version:	6.0
 Release:	2
 Source0:	ftp://sunsite.unc.edu/pub/Linux/docs/%{name}s-%{version}.tar.gz
-Copyright:	distributable
+License:	distributable
 Group:		Documentation
+Group(de):	Dokumentation
+Group(es):	Documentación
 Group(pl):	Dokumentacja
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-BuildArchitectures:	noarch
+BuildArch:	noarch
 
 %description
 The faq package includes the text of the Frequently Asked Questions
@@ -32,7 +35,7 @@ systemu Linux.
 %build
 # kill a dangling symlink
 rm -f Wine-FAQ
-mv Threads-FAQ/Threads-FAQ-html.tar.gz Threads-FAQ/Threads-FAQ.html.tar.gz
+mv -f Threads-FAQ/Threads-FAQ-html.tar.gz Threads-FAQ/Threads-FAQ.html.tar.gz
 
 %install
 rm -rf $RPM_BUILD_ROOT
