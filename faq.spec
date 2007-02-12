@@ -1,5 +1,5 @@
 Summary:	Frequently Asked Questions (FAQ) about Linux
-Summary(pl):	FAQ - czêsto zadawane pytania na temat Linuksa
+Summary(pl.UTF-8):   FAQ - czÄ™sto zadawane pytania na temat Linuksa
 Name:		faq
 Version:	6.0
 Release:	2
@@ -18,13 +18,13 @@ Linux FAQ is a great source of information about Linux.
 
 Install faq if you'd like to read the Linux FAQ off your own machine.
 
-%description -l pl
-Pakiet faq zawiera tekst Najczê¶ciej Zadawanych Pytañ (i odpowiedzi)
-dotycz±cych Linuksa, pochodz±cych z witryny SunSITE:
+%description -l pl.UTF-8
+Pakiet faq zawiera tekst NajczÄ™Å›ciej Zadawanych PytaÅ„ (i odpowiedzi)
+dotyczÄ…cych Linuksa, pochodzÄ…cych z witryny SunSITE:
 http://sunsite.unc.edu/pub/Linux/docs/faqs/linux-faq/Linux-FAQ/.
-Linuksowe FAQ jest wspania³ym ¼ród³em wiedzy o Linuksie.
+Linuksowe FAQ jest wspaniaÅ‚ym ÅºrÃ³dÅ‚em wiedzy o Linuksie.
 
-Nale¿y zainstalowaæ faq je¶li chce siê przeczytaæ FAQ dotycz±ce
+NaleÅ¼y zainstalowaÄ‡ faq jeÅ›li chce siÄ™ przeczytaÄ‡ FAQ dotyczÄ…ce
 systemu Linux.
 
 %prep
