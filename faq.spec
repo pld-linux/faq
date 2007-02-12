@@ -1,5 +1,5 @@
 Summary:	Frequently Asked Questions (FAQ) about Linux
-Summary(pl.UTF-8):   FAQ - często zadawane pytania na temat Linuksa
+Summary(pl.UTF-8):	FAQ - często zadawane pytania na temat Linuksa
 Name:		faq
 Version:	6.0
 Release:	2
